@@ -1,6 +1,6 @@
 # Honeycomb OSS Lifecycle and Practices
 
-Last update: some/date/here
+Last update: 07/30/2021
 
 ## Background
 
@@ -23,7 +23,7 @@ We define a few states for a repository:
 3. **Being sunset.** A repository is no longer maintained. The build might be stale, and dependencies might be out of date. Security vulnerabilities may be addressed, though, depending on severity. Repositories in this state are highly likely to be archived after some time. Issues and Pull Requests will be closed.
 4. **Archived.** It is no longer possible to interact with this repository. It is archived with GitHub’s archival tool. There is zero activity of any sort. If the repository produces an artifact, there will be adequate messaging to let people know that this artifact shouldn’t be used.
 
-How repositories move from state to state
+### How repositories move from state to state
 
 If a repository is in the first or fourth state, it should be obvious to anyone. For most repositories that are **Actively developed**, there may be behavior changes (and breaking changes to an artifact produced) during this phase. Eventually, this will reach a stead state and the repository will become **Maintained**.
 
