@@ -278,7 +278,7 @@ Every Honeycomb repository that is under *Active development* or is *Maintained*
 * Issue and pull request templates
 * SECURITY.md
 * SUPPORT.md
-* RELEASE.md (describes the release process for the repo, if applicable)
+* RELEASING.md (describes the release process for the repo, if applicable)
 * A `.editorconfig` file, if applicable, to help standardize code formatting
 
 These will be standardized across repositories, with exception to CONTRIBUTING.md, since the contribution process for some repositories can differ wildly from repository to repository.
