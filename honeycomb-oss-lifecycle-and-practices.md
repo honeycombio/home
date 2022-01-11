@@ -250,7 +250,7 @@ For all other concerns related to Pull Request management, please contact Honeyc
 
 As with previous sections, release cadence is subject to the unique constraints of a given repository and the team managing it. Especially for a large repository that sees ongoing development, releases may be cut on a schedule that is different from most other OSS artifacts.
 
-Generally speaking, we collect a list of merged pull requests each week that are labeled as "to release". When there are notable improvements that go beyond small depenency bumps, we'll strive to release a new version.
+Generally speaking, we collect a list of merged pull requests each week that are labeled as "to release". When there are notable improvements that go beyond small dependency bumps, we'll strive to release a new version.
 
 Our rough criteria for cutting a release is:
 
@@ -260,7 +260,7 @@ Our rough criteria for cutting a release is:
 4. There have been some impactful dependency updates since the last release (e.g., dependency on awesome-networking-lib makes a library run much faster now)
 5. A dependency on a core component has been updated, and that update is considered important for all consumers of it
 
-Generally speaking, we won’t release a new version just because there's some minor dependency updates. We are fine with not release a new version of something for a few months if nothing important has changed.
+Generally speaking, we won’t release a new version just because there are some minor dependency updates. We are fine with not releasing a new version of something for a few months if nothing critical has changed.
 
 Additionally, if you feel that a new version of a library should be released, just contact us! A new GitHub issue, the pollinators community on slack, etc. Releases can sometimes be interrupt-driven, and that’s fine.
 
