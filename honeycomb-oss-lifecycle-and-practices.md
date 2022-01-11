@@ -1,6 +1,6 @@
 # Honeycomb OSS Lifecycle and Practices
 
-Last update: 07/30/2021
+Last update: 01/11/2022
 
 ## Background
 
@@ -248,14 +248,19 @@ For all other concerns related to Pull Request management, please contact Honeyc
 
 ## Release cadence
 
-Many of the repositories we watch over are libraries or tools that are distributed via language-specific package managers. Over time, we’ll wish to release new versions of these libraries or tools. We will strive to release new versions in a timely manner, subject to the following criteria:
+As with previous sections, release cadence is subject to the unique constraints of a given repository and the team managing it. Especially for a large repository that sees ongoing development, releases may be cut on a schedule that is different from most other OSS artifacts.
+
+Generally speaking, we collect a list of merged pull requests each week that are labeled as "to release". When there are notable improvements that go beyond small depenency bumps, we'll strive to release a new version.
+
+Our rough criteria for cutting a release is:
 
 1. There was a security patch applied since the last release
 2. There was one or more bug fixes merged since the last release
 3. There was a new feature added since the last release
-4. There have been some impactful dependency updates since the last release (e.g., dependency on awesome-networking-lib makes this library run faster now)
+4. There have been some impactful dependency updates since the last release (e.g., dependency on awesome-networking-lib makes a library run much faster now)
+5. A dependency on a core component has been updated, and that update is considered important for all consumers of it
 
-Generally speaking, we won’t release a new version just to have a new version (e.g., some minor dependency got bumped and it doesn’t impact the library meaningfully).
+Generally speaking, we won’t release a new version just because there's some minor dependency updates. We are fine with not release a new version of something for a few months if nothing important has changed.
 
 Additionally, if you feel that a new version of a library should be released, just contact us! A new GitHub issue, the pollinators community on slack, etc. Releases can sometimes be interrupt-driven, and that’s fine.
 
