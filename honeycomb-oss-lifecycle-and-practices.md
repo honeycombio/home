@@ -32,7 +32,7 @@ We define a few states for a repository:
 
 If a repository is **Experimental**, then the state it ultimately moves into will be determined by the result of the experiment being done. As such, it is highly recommended that nobody depend on anything marked as Experimental unless they're working directly with Honeycomb.
 
-If a repository is in **Actively Developed** or **Archived** state, it should be obvious to anyone. For most repositories that are **Actively developed**, there may be behavior changes (and breaking changes to an artifact produced) during this phase. Eventually, this will reach a stead state and the repository will become **Maintained**.
+If a repository is in **Actively Developed** or **Archived** state, it should be obvious to anyone. For most repositories that are **Actively developed**, there may be behavior changes (and breaking changes to an artifact produced) during this phase. Eventually, this will reach a steady state and the repository will become **Maintained**.
 
 As a special case, there may be repositories that represent a larger codebase that is perpetually in active development. In this case, new releases come from snapshots of the repository (e.g., via a git tag or branch).
 
