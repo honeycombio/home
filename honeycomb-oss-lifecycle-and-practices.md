@@ -18,6 +18,7 @@ That being said, most repositories will follow the guidance in this document.
 
 We define a few states for a repository:
 
+0. **Experimental.** The repository may or may not undergo active development. Artifacts built from this repository may be usable in a more limited capacity. There is no expectation of support, and any use of artifacts built from this repository are entirely at your own risk. The result of the experiment that the repository represents will inform whether or not it's productized or shuttered.
 1. **Actively developed.** There is regular development activity in this repository, such as new features or enhancing existing features. There could be breaking behavioral changes during this time. Eventually, most repositories in this state will move to being maintained. Some large repositories may perpetually be in active development, with tags representing stable releases that you can depend on.
 2. **Maintained.** The repository is considered stable and feature complete, but with no plans to add big new features. Artifacts built from this repository are safe to depend on, and you can expect little churn in these artifacts over time. Any artifacts produced from this repository will see regular releases when there are noteworthy things to release (e.g., bug fixes). Repositories in this state typically fall under two subcategories: actively maintained or passively maintained.
 
@@ -29,7 +30,9 @@ We define a few states for a repository:
 
 ### How repositories move from state to state
 
-If a repository is in the first or fourth state, it should be obvious to anyone. For most repositories that are **Actively developed**, there may be behavior changes (and breaking changes to an artifact produced) during this phase. Eventually, this will reach a stead state and the repository will become **Maintained**.
+If a repository is **Experimental**, then the state it ultimately moves into will be determined by the result of the experiment being done. As such, it is highly recommended that nobody depend on anything marked as Experimental unless they're working directly with Honeycomb.
+
+If a repository is in **Actively Developed** or **Archived** state, it should be obvious to anyone. For most repositories that are **Actively developed**, there may be behavior changes (and breaking changes to an artifact produced) during this phase. Eventually, this will reach a steady state and the repository will become **Maintained**.
 
 As a special case, there may be repositories that represent a larger codebase that is perpetually in active development. In this case, new releases come from snapshots of the repository (e.g., via a git tag or branch).
 
@@ -103,6 +106,10 @@ For all other concerns related to Issue management, please contact [Honeycomb su
 ### Issue triage practices with respect to repository states
 
 Additionally, we define some specific practices in the context of a specific Repository state.
+
+**Experimental**
+
+* We make zero guarantees to triage any issues filed
 
 **Actively developed:**
 
@@ -213,9 +220,13 @@ Nothing in particular here, aside from ensuring feedback is addressed.
 
 Additionally, we define some specific practices in the context of a specific Repository state.
 
+**Experimental**
+
+* We make zero guarantees that we will consider any contributions submitted
+
 **Actively developed:**
 
-* We will try to follow general practices for any issues filed
+* We will try to follow general practices for any contributions submitted
 * Some contributions might be closed because some in-progress work from the team would obviate or duplicate it
 
 **Maintained:**
