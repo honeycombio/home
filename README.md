@@ -46,7 +46,6 @@ Currently, these are for sending raw event data to Honeycomb.
 
 * [Honeyvent](https://github.com/honeycombio/honeyvent)
 * [Honeymarker](https://github.com/honeycombio/honeymarker)
-* [Honeytrigger](https://github.com/honeycombio/honeytrigger)
 
 ## Logs
 
