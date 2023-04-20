@@ -12,6 +12,9 @@ These repositories are libraries to support sending Trace data to Honeycomb, or 
 
 * [Java](https://github.com/honeycombio/honeycomb-opentelemetry-java)
 * [.NET](https://github.com/honeycombio/honeycomb-opentelemetry-dotnet)
+* [Go](https://github.com/honeycombio/honeycomb-opentelemetry-go)
+* [Node.js](https://github.com/honeycombio/honeycomb-opentelemetry-node)
+* [Python](https://github.com/honeycombio/honeycomb-opentelemetry-python)
 
 ### Beelines
 
