@@ -4,26 +4,6 @@ Welcome to Honeycomb's home on GitHub. This repository doesn't have any code and
 
 See below for a small map of various related Honeycomb repositories.
 
-## Tracing
-
-These repositories are libraries to support sending Trace data to Honeycomb, or as we like to call it [getting data in](https://github.com/honeycombio/example-greeting-service).
-
-### OpenTelemetry wrappers
-
-* [Java](https://github.com/honeycombio/honeycomb-opentelemetry-java)
-* [.NET](https://github.com/honeycombio/honeycomb-opentelemetry-dotnet)
-* [Go](https://github.com/honeycombio/honeycomb-opentelemetry-go)
-* [Node.js](https://github.com/honeycombio/honeycomb-opentelemetry-node)
-* [Python](https://github.com/honeycombio/honeycomb-opentelemetry-python)
-
-### Beelines
-
-* [Go](https://github.com/honeycombio/beeline-go)
-* [Ruby](https://github.com/honeycombio/beeline-ruby)
-* [node.js](https://github.com/honeycombio/beeline-nodejs)
-* [Python](https://github.com/honeycombio/beeline-python)
-* [Java](https://github.com/honeycombio/beeline-java)
-
 ## Sampling
 
 These repositories are tools for helping manage your data volume that you send to Honeycomb.
@@ -60,4 +40,3 @@ These repositories should help you learn how to instrument your application to s
 
 * [Example greeting service](https://github.com/honeycombio/example-greeting-service)
 * [Microservices demo](https://github.com/honeycombio/microservices-demo)
-
